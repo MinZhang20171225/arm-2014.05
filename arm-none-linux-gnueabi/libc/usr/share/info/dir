@@ -14,6 +14,9 @@ File: dir	Node: Top	This is the top of the INFO tree
 
 * Menu: 
 
+Development
+* libffi: (libffi).             Portable foreign-function interface library.
+
 GNU C library functions and macros
 * __fbufsize: (libc)Controlling Buffering.
 * __flbf: (libc)Controlling Buffering.
