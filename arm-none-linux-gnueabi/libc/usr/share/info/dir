@@ -1696,3 +1696,5 @@ GNU C library functions and macros
 
 Software libraries
 * Libc: (libc).                 C library.
+* libconfig: (libconfig).       A Library For Processing Structured 
+                                  Configuration Files
