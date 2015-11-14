@@ -1,0 +1,11 @@
+prefix=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr
+exec_prefix=${prefix}
+libdir=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr/lib
+includedir=${prefix}/include
+
+Name: avahi-glib
+Description: Avahi Multicast DNS Responder (GLib Support)
+Version: 0.6.31
+Requires: glib-2.0
+Libs: -L${libdir} -lavahi-glib
+Cflags: -D_REENTRANT -I${includedir}
