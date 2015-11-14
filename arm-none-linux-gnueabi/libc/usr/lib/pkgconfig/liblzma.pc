@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr
+exec_prefix=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr
+libdir=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr/lib
+includedir=/home/work/cross/arm-2014.05/arm-none-linux-gnueabi/libc/usr/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: http://tukaani.org/xz/
+Version: 5.2.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread 
